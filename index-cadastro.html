@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Registration</h2>
+        <form id="registrationForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="postalCode">Postal Code:</label>
+            <input type="text" id="postalCode" name="postalCode" required>
+
+            <label for="street">Street:</label>
+            <input type="text" id="street" name="street" readonly>
+
+            <label for="neighborhood">Neighborhood:</label>
+            <input type="text" id="neighborhood" name="neighborhood" readonly>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" readonly>
+
+            <label for="stateCode">State Code:</label>
+            <input type="text" id="stateCode" name="stateCode" readonly>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" readonly>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+    
+</html>
